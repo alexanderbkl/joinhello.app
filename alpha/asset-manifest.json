@@ -1,0 +1,31 @@
+{
+  "files": {
+    "app.js": "/beta/static/js/app.b5713a82.chunk.js",
+    "app.js.map": "/beta/static/js/app.b5713a82.chunk.js.map",
+    "runtime~app.js": "/beta/static/js/runtime~app.03960725.js",
+    "runtime~app.js.map": "/beta/static/js/runtime~app.03960725.js.map",
+    "static/js/2.d648b10c.chunk.js": "/beta/static/js/2.d648b10c.chunk.js",
+    "static/js/2.d648b10c.chunk.js.map": "/beta/static/js/2.d648b10c.chunk.js.map",
+    "fonts/MaterialCommunityIcons.ttf": "/beta/./fonts/MaterialCommunityIcons.ttf",
+    "favicon-16.png": "/beta/favicon-16.png",
+    "favicon-32.png": "/beta/favicon-32.png",
+    "favicon.ico": "/beta/favicon.ico",
+    "index.html": "/beta/index.html",
+    "manifest.json": "/beta/manifest.json",
+    "serve.json": "/beta/serve.json",
+    "static/js/2.d648b10c.chunk.js.LICENSE.txt": "/beta/static/js/2.d648b10c.chunk.js.LICENSE.txt",
+    "static/media/Instagram.png": "/beta/static/media/Instagram.07bf95fe.png",
+    "static/media/file.png": "/beta/static/media/file.73e9524a.png",
+    "static/media/filePublic.png": "/beta/static/media/filePublic.2537e54c.png",
+    "static/media/folder.png": "/beta/static/media/folder.5107a6da.png",
+    "static/media/linkedin.png": "/beta/static/media/linkedin.bcac093a.png",
+    "static/media/logo.png": "/beta/static/media/logo.deaa9c5a.png",
+    "static/media/ounn.png": "/beta/static/media/ounn.ad2c5e49.png",
+    "static/media/upload_button.png": "/beta/static/media/upload_button.8a26790a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.03960725.js",
+    "static/js/2.d648b10c.chunk.js",
+    "static/js/app.b5713a82.chunk.js"
+  ]
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="en"><head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="js/analytics.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-494P2SVRLR"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-494P2SVRLR');
+		</script>		
+		<title>Hello | Decentralized</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="Image1.jpg">
+		<link rel="icon" type="image/png" href="/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/badge.css">
+	</head>
+	<body>
+		<section class="section column-section section-bio">
+	    <div id="container">
+	        
+	        <button class="btn btn-success myButton" onclick="window.open('https://joinhello.app/prototype','_blank')" >- Prototype -</button>
+	        <img class="petaloImg" src="images/icon.png" height="32px" style="vertical-align: middle;">
+            <img src="images/hello2.png" height="32px" style="vertical-align: middle; margin-left: 10px;">
+            
+        </div>
+        <div class="col-section">
+		        <p>Join waitlist</p>
+		        <form id="emailSubmitForm" action="https://185.166.212.43/email/submit" method="POST">
+				    <input id="emailInput" class="myInput" type="email" placeholder="example@mail.com">
+					<input type="submit" value="Join"  class="myButton"/>
+				</form>
+		    </div>
+		<!-- <figure class="logo"><img src="images/Gox.png" width="80px"></figure> -->
+			<p class="bio">Hello Drive is an open-source, encrypted, user-controlled decentralized storage software designed for both web3 and 
+			traditional users. Data is securely stored across the decentralized infrastructure.
+			Hello Drive is built on the principles of efficiency, sustainability, and decentralization, and that is why our infrastructure leverages unused storage space from current devices and constantly fine-tunes its efficiency, resulting
+			in unmatched scalability. Sustainability is a key aspect, as our network doesn't require the creation of new servers, making us a 
+			carbon-neutral project.</p>
+							    
+
+		</section>
+
+		<section class="section column-section-main">
+		    
+			<div class="col-section">
+				<h2 class="main-text">Docs</h2>
+				<dl class="list">
+				    <dt class="main-text main-text-small">Hello</dt>
+					<dd class="list-item">
+						<a class="list-link" href="https://github.com/alexanderbkl/hello.storage" target="_blank">github.com/hello.storage</a>
+					</dd>
+					<dt class="main-text main-text-small">IPFS</dt>
+					<dd class="list-item">
+						<a class="list-link" href="https://github.com/ipfs" target="_blank">github.com/ipfs</a>
+					</dd>
+					<dt class="main-text main-text-small">Filecoin</dt>
+					<dd class="list-item">
+						<a class="list-link" href="https://github.com/filecoin-project" target="_blank">github.com/filecoin-project</a>
+					</dd>
+				</dl>
+			</div>
+			<div class="col-section">
+			  <h2 class="main-text">Info</h2>
+				<dl class="list">
+					<dt class="main-text main-text-small">Deck</dt>
+					<dd class="list-item">
+						<a class="list-link" href="https://joinhello.app/Deck.pdf" target="_blank">Deck Hello</a>
+					</dd>
+					<dt class="main-text main-text-small">Contact</dt>
+					<dd class="list-item">
+						<a class="list-link" href="mailto:hello@joinhello.app" target="_blank">hello@joinhello.app</a>
+					</dd>
+					<dt class="main-text main-text-small">Beta prototype</dt>
+					<dd class="list-item">
+						<a class="list-link" href="https://joinhello.app/beta" target="_blank">Hello.storage/beta</a>
+					</dd>
+				</dl>
+			</div>
+			
+		</section>
+		<footer class="footer main-text main-text-small">
+			<a class="footer-links link-twitter" href="#" target="_blank">Twitter</a>
+			<a class="footer-links link-twitter" href="#" target="_blank">Medium</a>
+			<a class="footer-links link-instagram" href="#" target="_blank">Instagram</a>
+			<a class="footer-links link-dribbble" href="#" target="_blank">Reddit</a>
+			<a class="footer-links link-behance" href="https://www.linkedin.com/company/goxearth/" target="_blank">LinkedIn</a>
+			<a class="footer-links link-site" href="https://joinhello.app" target="_blank">© 2023 Hello Technologies</a>
+			<div class="scrunch" aria-hidden="true"></div>
+		</footer>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-89325722-1', 'auto');
+			ga('send', 'pageview');
+			
+			var emailSubmitForm = document.getElementById("emailSubmitForm");
+			
+			emailSubmitForm.addEventListener('submit', async (e) => {
+			    e.preventDefault();
+			    var email = document.getElementById('emailInput').value;
+			    
+			    fetch('https://185.166.212.43/email/submit', {
+			        method: 'POST',
+			        headers: {
+			            'Content-Type': 'application/json'
+			        },
+			        body: JSON.stringify({email: email})
+			    })
+			    .then(response => response.json())
+			    .then(data => console.log(data))
+			    .catch((error) => {
+			        console.error('Error:', error)
+			    })
+			})
+			
+			
+		</script>
+	
+</body></html>

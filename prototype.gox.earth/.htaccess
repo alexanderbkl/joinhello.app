@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^prototype\.joinhello\.app$
+RewriteRule ^/?$ "https\:\/\/joinhello\.app\/prototype" [R=301,L]
+
